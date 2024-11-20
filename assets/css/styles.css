@@ -26,12 +26,12 @@ body {
 
 /* Modo oscuro: redefine las variables para el tema oscuro */
 body.dark-mode {
-    --primary-color: #1e4000;
+    --primary-color: #3a5a05;
     --secondary-color: #3a5a05;
     --accent-color: #ffd700;
     --text-color: #e0e0e0;
     --bg-color: #121212;
-    --chat-bg: #1e1e1e;
+    --chat-bg: #5c5b5b;
     --input-bg: #2c2c2c;
     --message-user-bg: #3a5a05;
     --message-bot-bg: #2c2c2c;
@@ -123,7 +123,7 @@ h2 {
 
 /* Contenedor principal del chat */
 #chat-container {
-    max-width: 800px;
+    max-width: 700px;
     margin: 20px auto;
     background-color: var(--chat-bg); /* Fondo del chat */
     border-radius: 10px;
@@ -140,7 +140,7 @@ h2 {
 
 /* Área de mensajes */
 #messages {
-    height: 400px; /* Altura del contenedor de mensajes */
+    height: 200px; /* Altura del contenedor de mensajes */
     overflow-y: auto; /* Barra de desplazamiento en Y */
     margin-bottom: 15px;
     padding: 10px;
